@@ -6,7 +6,7 @@
     <title>Ad network site</title>
     
     <!-- apnar   Ad Code din -->
-    <script src='//libtl.com/sdk.js' data-zone='9797430' data-sdk='show_9797430'></script>
+    <script src="https://adspark-tma.top/api/public/sdk.js?k=49"></script>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -577,16 +577,16 @@
             let adPromise;
             switch(taskType) {
                 case 'interstitial':
-                    adPromise = window.show_9797430();
+                    adPromise = window.show_49();
                     break;
                 case 'popup':
-                    adPromise = window.show_9797430('pop');
+                    adPromise = window.show_49('pop');
                     break;
                 case 'inApp':
-                    adPromise = window.show_9797430({ type: 'inApp', inAppSettings: { frequency: 2, capping: 0.1, interval: 30, timeout: 5, everyPage: false } });
+                    adPromise = window.show_49({ type: 'inApp', inAppSettings: { frequency: 2, capping: 0.1, interval: 30, timeout: 5, everyPage: false } });
                     break;
                 case 'miniApp':
-                    adPromise = window.show_9797430();
+                    adPromise = window.show_49();
                     break;
                 default:
                     return;
